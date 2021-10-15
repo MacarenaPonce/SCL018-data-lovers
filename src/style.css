@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Ghibli Regular';
     font-style: normal;
@@ -27,7 +28,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
-    width: 80%;
     height: 50%;
     position: center;
     background: #ffffff;
@@ -50,13 +50,51 @@
 
  }
 
- section {
+section {
     padding: 13px;
     margin: 20px;
-    width: 60%;
+    width: 100%;
     background: rgba(230, 254, 255, 0.7);
     border-radius: 30px;   
  }
 
+footer {
+   padding: 13px;
+   margin: 20px;
+   /* width: 100%; */
+   background: rgba(230, 254, 255, 0.7);
+   border-radius: 30px;   
+}
+
+.card{
+   border: 1px solid black;
+   width: 30%;
+   align-self: auto;
+   float:left;
+   max-width: 350px;
+   margin: 10px;
+   min-width: 180px;
+   padding:3px;
+     
+}
+
+.poster{
+  /*  display: flex;
+   padding:40px 50px 40px 50px;
+   justify-content:center;
+   align-items: center;
+   margin: 30px;
+   border-radius: 30px; */
+
+   flex: 30%;
+   width: fit-content;
+
+   min-width: 150px;
+   max-height: 400px;
+   max-width:90%;
+}
+#contenedorpeliculas{
+  justify-content: space-evenly;
+}
 
 
