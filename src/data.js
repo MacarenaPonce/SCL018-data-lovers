@@ -26,7 +26,7 @@ export const sortData = (data, sortBy ) => {
     } 
       return  0;
   });
-  
+ 
   //si coincide con el nombre, entonces nuestro orden es alrevés
   if (sortBy === "name_za" || sortBy === "date_asc") {
       return sorted.reverse();
@@ -37,4 +37,3 @@ export const sortData = (data, sortBy ) => {
 export const filterData = (data, filterBy) => {
   return data.filter(x => x.director === filterBy);
 }
-

@@ -1,3 +1,4 @@
+
 //Se importan las funciones desde data.js y la informacion desde ghibli.js */
 import data from './data/ghibli/ghibli.js';
 import {sortData, filterData} from './data.js';
@@ -36,7 +37,6 @@ optionToSort.addEventListener("change", (event) => {
   printCard(film01);
 });
 
-
 //para filtrar, primero se llama al html, se escucha algun cambio y se trabaja
 const optionToFilter = document.querySelector("#filterby_director");
 optionToFilter.addEventListener("change", (event) => {
@@ -45,8 +45,3 @@ optionToFilter.addEventListener("change", (event) => {
   printCard(filterOption);
 });
 
-/* else (event.target.value ==="nota_de_rt") {
-    for (let i=0; i < films.length; i++) {
-      tempArray.push(films[i].rt_score);//agregar reverse
-    }
-  } */
